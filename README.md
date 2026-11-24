@@ -12,7 +12,12 @@ Personal website of Samara Beach, served by GitHub Pages at samarabea.ch.
 
 ## Updating the chart data
 
-The page reads `data/economy.json`. To refresh it:
+The page reads `data/economy.json`. A GitHub Action
+(`.github/workflows/update-economy-data.yml`) refreshes it every Saturday and
+commits it to `main`. To run it now, open the **Actions** tab, pick
+**Update economy data**, and click **Run workflow**.
+
+To refresh it by hand instead:
 
     python3 scripts/update_economy_data.py
 
