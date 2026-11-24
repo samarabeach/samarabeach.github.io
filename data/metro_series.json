@@ -1,0 +1,1662 @@
+[
+ {
+  "code": "10180",
+  "metro": "Abilene, TX",
+  "series_id": "ABIL148UR"
+ },
+ {
+  "code": "10420",
+  "metro": "Akron, OH",
+  "series_id": "AKRO439UR"
+ },
+ {
+  "code": "10500",
+  "metro": "Albany, GA",
+  "series_id": "ALBA513UR"
+ },
+ {
+  "code": "10580",
+  "metro": "Albany-Schenectady-Troy, NY",
+  "series_id": "ALBA536UR"
+ },
+ {
+  "code": "10740",
+  "metro": "Albuquerque, NM",
+  "series_id": "ALBU735UR"
+ },
+ {
+  "code": "10780",
+  "metro": "Alexandria, LA",
+  "series_id": "ALEX722UR"
+ },
+ {
+  "code": "10900",
+  "metro": "Allentown-Bethlehem-Easton, PA-NJ",
+  "series_id": "ALLE942UR"
+ },
+ {
+  "code": "11020",
+  "metro": "Altoona, PA",
+  "series_id": "ALTO042UR"
+ },
+ {
+  "code": "11100",
+  "metro": "Amarillo, TX",
+  "series_id": "AMAR148UR"
+ },
+ {
+  "code": "11180",
+  "metro": "Ames, IA",
+  "series_id": "AMES119UR"
+ },
+ {
+  "code": "11260",
+  "metro": "Anchorage, AK",
+  "series_id": "ANCH202UR"
+ },
+ {
+  "code": "11460",
+  "metro": "Ann Arbor, MI",
+  "series_id": "ANNA426UR"
+ },
+ {
+  "code": "11500",
+  "metro": "Anniston-Oxford-Jacksonville, AL",
+  "series_id": "ANNI501UR"
+ },
+ {
+  "code": "11540",
+  "metro": "Appleton, WI",
+  "series_id": "APPL555UR"
+ },
+ {
+  "code": "11700",
+  "metro": "Asheville, NC",
+  "series_id": "ASHE737UR"
+ },
+ {
+  "code": "12020",
+  "metro": "Athens-Clarke County, GA",
+  "series_id": "ATHE013UR"
+ },
+ {
+  "code": "12060",
+  "metro": "Atlanta-Sandy Springs-Roswell, GA",
+  "series_id": "ATLA013UR"
+ },
+ {
+  "code": "12100",
+  "metro": "Atlantic City-Hammonton, NJ",
+  "series_id": "ATLA134UR"
+ },
+ {
+  "code": "12220",
+  "metro": "Auburn-Opelika, AL",
+  "series_id": "AUBU201UR"
+ },
+ {
+  "code": "12260",
+  "metro": "Augusta-Richmond County, GA-SC",
+  "series_id": "AUGU213UR"
+ },
+ {
+  "code": "12420",
+  "metro": "Austin-Round Rock, TX",
+  "series_id": "AUST448UR"
+ },
+ {
+  "code": "12540",
+  "metro": "Bakersfield, CA",
+  "series_id": "BAKE506UR"
+ },
+ {
+  "code": "12580",
+  "metro": "Baltimore-Columbia-Towson, MD",
+  "series_id": "BALT524UR"
+ },
+ {
+  "code": "12940",
+  "metro": "Baton Rouge, LA",
+  "series_id": "BATO922UR"
+ },
+ {
+  "code": "12980",
+  "metro": "Battle Creek, MI",
+  "series_id": "BATT926UR"
+ },
+ {
+  "code": "13020",
+  "metro": "Bay City, MI",
+  "series_id": "BAYC026UR"
+ },
+ {
+  "code": "13140",
+  "metro": "Beaumont-Port Arthur, TX",
+  "series_id": "BEAU148UR"
+ },
+ {
+  "code": "13380",
+  "metro": "Bellingham, WA",
+  "series_id": "BELL353UR"
+ },
+ {
+  "code": "13460",
+  "metro": "Bend-Redmond, OR",
+  "series_id": "BEND441UR"
+ },
+ {
+  "code": "13740",
+  "metro": "Billings, MT",
+  "series_id": "BILL730UR"
+ },
+ {
+  "code": "13780",
+  "metro": "Binghamton, NY",
+  "series_id": "BING736UR"
+ },
+ {
+  "code": "13820",
+  "metro": "Birmingham-Hoover, AL",
+  "series_id": "BIRM801UR"
+ },
+ {
+  "code": "13900",
+  "metro": "Bismarck, ND",
+  "series_id": "BISM938UR"
+ },
+ {
+  "code": "13980",
+  "metro": "Blacksburg-Christiansburg-Radford, VA",
+  "series_id": "BLAC951UR"
+ },
+ {
+  "code": "14010",
+  "metro": "Bloomington, IL",
+  "series_id": "BLOO017UR"
+ },
+ {
+  "code": "14020",
+  "metro": "Bloomington, IN",
+  "series_id": "BLOO018UR"
+ },
+ {
+  "code": "14260",
+  "metro": "Boise City, ID",
+  "series_id": "BOIS216UR"
+ },
+ {
+  "code": "14500",
+  "metro": "Boulder, CO",
+  "series_id": "BOUL508UR"
+ },
+ {
+  "code": "14540",
+  "metro": "Bowling Green, KY",
+  "series_id": "BOWUR"
+ },
+ {
+  "code": "35840",
+  "metro": "Bradenton-Sarasota-Venice, FL",
+  "series_id": "SARA212UR"
+ },
+ {
+  "code": "14740",
+  "metro": "Bremerton-Silverdale, WA",
+  "series_id": "BREM753UR"
+ },
+ {
+  "code": "15180",
+  "metro": "Brownsville-Harlingen, TX",
+  "series_id": "BROW148UR"
+ },
+ {
+  "code": "15260",
+  "metro": "Brunswick, GA",
+  "series_id": "BRUN213UR"
+ },
+ {
+  "code": "15380",
+  "metro": "Buffalo-Cheektowaga-Niagara Falls, NY",
+  "series_id": "BUFF336UR"
+ },
+ {
+  "code": "15500",
+  "metro": "Burlington, NC",
+  "series_id": "BURL537UR"
+ },
+ {
+  "code": "15940",
+  "metro": "Canton-Massillon, OH",
+  "series_id": "CANT939UR"
+ },
+ {
+  "code": "15980",
+  "metro": "Cape Coral-Fort Myers, FL",
+  "series_id": "CAPE912UR"
+ },
+ {
+  "code": "16180",
+  "metro": "Carson City, NV",
+  "series_id": "CARS132UR"
+ },
+ {
+  "code": "16220",
+  "metro": "Casper, WY",
+  "series_id": "CASP256UR"
+ },
+ {
+  "code": "16300",
+  "metro": "Cedar Rapids, IA",
+  "series_id": "CEDA319UR"
+ },
+ {
+  "code": "16580",
+  "metro": "Champaign-Urbana, IL",
+  "series_id": "CHAM517UR"
+ },
+ {
+  "code": "16620",
+  "metro": "Charleston, WV",
+  "series_id": "CHAR654UR"
+ },
+ {
+  "code": "16700",
+  "metro": "Charleston-North Charleston-Summerville, SC",
+  "series_id": "CHAR745UR"
+ },
+ {
+  "code": "16740",
+  "metro": "Charlotte-Concord-Gastonia, NC-SC",
+  "series_id": "CHAR737UR"
+ },
+ {
+  "code": "16820",
+  "metro": "Charlottesville, VA",
+  "series_id": "CHAR851UR"
+ },
+ {
+  "code": "16860",
+  "metro": "Chattanooga, TN-GA",
+  "series_id": "CHAT847UR"
+ },
+ {
+  "code": "16940",
+  "metro": "Cheyenne, WY",
+  "series_id": "CHEY956UR"
+ },
+ {
+  "code": "16980",
+  "metro": "Chicago-Naperville-Elgin, IL-IN-WI",
+  "series_id": "CHIC917UR"
+ },
+ {
+  "code": "17020",
+  "metro": "Chico, CA",
+  "series_id": "CHIC006UR"
+ },
+ {
+  "code": "17140",
+  "metro": "Cincinnati, OH-KY-IN",
+  "series_id": "CINC139UR"
+ },
+ {
+  "code": "17300",
+  "metro": "Clarksville, TN-KY",
+  "series_id": "CLHUR"
+ },
+ {
+  "code": "17420",
+  "metro": "Cleveland, TN",
+  "series_id": "CLEV447UR"
+ },
+ {
+  "code": "17460",
+  "metro": "Cleveland-Elyria, OH",
+  "series_id": "CLEV439UR"
+ },
+ {
+  "code": "17660",
+  "metro": "Coeur d&#039;Alene, ID",
+  "series_id": "COEU616UR"
+ },
+ {
+  "code": "17780",
+  "metro": "College Station-Bryan, TX",
+  "series_id": "COLL748UR"
+ },
+ {
+  "code": "17820",
+  "metro": "Colorado Springs, CO",
+  "series_id": "COLO808UR"
+ },
+ {
+  "code": "17860",
+  "metro": "Columbia, MO",
+  "series_id": "CLMUR"
+ },
+ {
+  "code": "17900",
+  "metro": "Columbia, SC",
+  "series_id": "COLU945UR"
+ },
+ {
+  "code": "17980",
+  "metro": "Columbus, GA-AL",
+  "series_id": "COLU913UR"
+ },
+ {
+  "code": "18020",
+  "metro": "Columbus, IN",
+  "series_id": "COLU018UR"
+ },
+ {
+  "code": "18140",
+  "metro": "Columbus, OH",
+  "series_id": "COLU139UR"
+ },
+ {
+  "code": "18580",
+  "metro": "Corpus Christi, TX",
+  "series_id": "CORP548UR"
+ },
+ {
+  "code": "18700",
+  "metro": "Corvallis, OR",
+  "series_id": "CORV741UR"
+ },
+ {
+  "code": "18880",
+  "metro": "Crestview-Fort Walton Beach-Destin, FL",
+  "series_id": "FORT012UR"
+ },
+ {
+  "code": "19100",
+  "metro": "Dallas-Fort Worth-Arlington, TX",
+  "series_id": "DALL148UR"
+ },
+ {
+  "code": "19140",
+  "metro": "Dalton, GA",
+  "series_id": "DALT113UR"
+ },
+ {
+  "code": "19340",
+  "metro": "Davenport-Moline-Rock Island, IA-IL",
+  "series_id": "DAVE317UR"
+ },
+ {
+  "code": "19460",
+  "metro": "Decatur, AL",
+  "series_id": "DECA401UR"
+ },
+ {
+  "code": "19500",
+  "metro": "Decatur, IL",
+  "series_id": "DECA517UR"
+ },
+ {
+  "code": "19660",
+  "metro": "Deltona-Daytona Beach-Ormond Beach, FL",
+  "series_id": "DELT612UR"
+ },
+ {
+  "code": "19740",
+  "metro": "Denver-Aurora-Lakewood, CO",
+  "series_id": "DENV708UR"
+ },
+ {
+  "code": "19780",
+  "metro": "Des Moines-West Des Moines, IA",
+  "series_id": "DESM719UR"
+ },
+ {
+  "code": "19820",
+  "metro": "Detroit-Warren-Dearborn, MI",
+  "series_id": "DETR826UR"
+ },
+ {
+  "code": "20020",
+  "metro": "Dothan, AL",
+  "series_id": "DOTH001UR"
+ },
+ {
+  "code": "20100",
+  "metro": "Dover, DE",
+  "series_id": "DOVE110UR"
+ },
+ {
+  "code": "20220",
+  "metro": "Dubuque, IA",
+  "series_id": "DUBU219UR"
+ },
+ {
+  "code": "20260",
+  "metro": "Duluth, MN-WI",
+  "series_id": "DULU227UR"
+ },
+ {
+  "code": "20500",
+  "metro": "Durham-Chapel Hill, NC",
+  "series_id": "DURH537UR"
+ },
+ {
+  "code": "20740",
+  "metro": "Eau Claire, WI",
+  "series_id": "EAUC755UR"
+ },
+ {
+  "code": "20940",
+  "metro": "El Centro, CA",
+  "series_id": "ELCE906UR"
+ },
+ {
+  "code": "21340",
+  "metro": "El Paso, TX",
+  "series_id": "ELPA348UR"
+ },
+ {
+  "code": "21060",
+  "metro": "Elizabethtown-Fort Knox, KY",
+  "series_id": "ELZUR"
+ },
+ {
+  "code": "21140",
+  "metro": "Elkhart-Goshen, IN",
+  "series_id": "ELKH118UR"
+ },
+ {
+  "code": "21300",
+  "metro": "Elmira, NY",
+  "series_id": "ELMI336UR"
+ },
+ {
+  "code": "21500",
+  "metro": "Erie, PA",
+  "series_id": "ERIE542UR"
+ },
+ {
+  "code": "21660",
+  "metro": "Eugene, OR",
+  "series_id": "EUGE641UR"
+ },
+ {
+  "code": "21780",
+  "metro": "Evansville, IN-KY",
+  "series_id": "EVNUR"
+ },
+ {
+  "code": "21820",
+  "metro": "Fairbanks, AK",
+  "series_id": "FAIR802UR"
+ },
+ {
+  "code": "22020",
+  "metro": "Fargo, ND-MN",
+  "series_id": "FARG038UR"
+ },
+ {
+  "code": "22140",
+  "metro": "Farmington, NM",
+  "series_id": "FARM135UR"
+ },
+ {
+  "code": "22180",
+  "metro": "Fayetteville, NC",
+  "series_id": "FAYE137UR"
+ },
+ {
+  "code": "22220",
+  "metro": "Fayetteville-Springdale-Rogers, AR-MO",
+  "series_id": "FASUR"
+ },
+ {
+  "code": "22380",
+  "metro": "Flagstaff, AZ",
+  "series_id": "FLAG304UR"
+ },
+ {
+  "code": "22420",
+  "metro": "Flint, MI",
+  "series_id": "FLIN426UR"
+ },
+ {
+  "code": "22500",
+  "metro": "Florence, SC",
+  "series_id": "FLOR545UR"
+ },
+ {
+  "code": "22520",
+  "metro": "Florence-Muscle Shoals, AL",
+  "series_id": "FLOR501UR"
+ },
+ {
+  "code": "22540",
+  "metro": "Fond du Lac, WI",
+  "series_id": "FOND555UR"
+ },
+ {
+  "code": "22660",
+  "metro": "Fort Collins, CO",
+  "series_id": "FORT608UR"
+ },
+ {
+  "code": "22900",
+  "metro": "Fort Smith, AR-OK",
+  "series_id": "FTSUR"
+ },
+ {
+  "code": "23060",
+  "metro": "Fort Wayne, IN",
+  "series_id": "FORT018UR"
+ },
+ {
+  "code": "23420",
+  "metro": "Fresno, CA",
+  "series_id": "FRES406UR"
+ },
+ {
+  "code": "23460",
+  "metro": "Gadsden, AL",
+  "series_id": "GADS401UR"
+ },
+ {
+  "code": "23540",
+  "metro": "Gainesville, FL",
+  "series_id": "GAIN512UR"
+ },
+ {
+  "code": "23580",
+  "metro": "Gainesville, GA",
+  "series_id": "GAIN513UR"
+ },
+ {
+  "code": "24020",
+  "metro": "Glens Falls, NY",
+  "series_id": "GLEN036UR"
+ },
+ {
+  "code": "24140",
+  "metro": "Goldsboro, NC",
+  "series_id": "GOLD137UR"
+ },
+ {
+  "code": "24220",
+  "metro": "Grand Forks, ND-MN",
+  "series_id": "GRAN238UR"
+ },
+ {
+  "code": "24300",
+  "metro": "Grand Junction, CO",
+  "series_id": "GRAN308UR"
+ },
+ {
+  "code": "24340",
+  "metro": "Grand Rapids-Wyoming, MI",
+  "series_id": "GRAN326UR"
+ },
+ {
+  "code": "24500",
+  "metro": "Great Falls, MT",
+  "series_id": "GREA530UR"
+ },
+ {
+  "code": "24540",
+  "metro": "Greeley, CO",
+  "series_id": "GREE508UR"
+ },
+ {
+  "code": "24580",
+  "metro": "Green Bay, WI",
+  "series_id": "GREE555UR"
+ },
+ {
+  "code": "24660",
+  "metro": "Greensboro-High Point, NC",
+  "series_id": "GREE637UR"
+ },
+ {
+  "code": "24780",
+  "metro": "Greenville, NC",
+  "series_id": "GREE737UR"
+ },
+ {
+  "code": "24860",
+  "metro": "Greenville-Anderson-Mauldin, SC",
+  "series_id": "GREE845UR"
+ },
+ {
+  "code": "25060",
+  "metro": "Gulfport-Biloxi-Pascagoula, MS",
+  "series_id": "GULF028UR"
+ },
+ {
+  "code": "25180",
+  "metro": "Hagerstown-Martinsburg, MD-WV",
+  "series_id": "HAGE124UR"
+ },
+ {
+  "code": "25260",
+  "metro": "Hanford-Corcoran, CA",
+  "series_id": "HANF206UR"
+ },
+ {
+  "code": "25420",
+  "metro": "Harrisburg-Carlisle, PA",
+  "series_id": "HARR442UR"
+ },
+ {
+  "code": "25500",
+  "metro": "Harrisonburg, VA",
+  "series_id": "HARR551UR"
+ },
+ {
+  "code": "25620",
+  "metro": "Hattiesburg, MS",
+  "series_id": "HATT628UR"
+ },
+ {
+  "code": "25860",
+  "metro": "Hickory-Lenoir-Morganton, NC",
+  "series_id": "HICK837UR"
+ },
+ {
+  "code": "25980",
+  "metro": "Hinesville, GA",
+  "series_id": "HINE913UR"
+ },
+ {
+  "code": "26300",
+  "metro": "Hot Springs, AR",
+  "series_id": "HSPUR"
+ },
+ {
+  "code": "26380",
+  "metro": "Houma-Thibodaux, LA",
+  "series_id": "HOUM322UR"
+ },
+ {
+  "code": "26420",
+  "metro": "Houston-The Woodlands-Sugar Land, TX",
+  "series_id": "HOUS448UR"
+ },
+ {
+  "code": "26580",
+  "metro": "Huntington-Ashland, WV-KY-OH",
+  "series_id": "HUNT554UR"
+ },
+ {
+  "code": "26620",
+  "metro": "Huntsville, AL",
+  "series_id": "HUNT601UR"
+ },
+ {
+  "code": "26820",
+  "metro": "Idaho Falls, ID",
+  "series_id": "IDAH816UR"
+ },
+ {
+  "code": "26900",
+  "metro": "Indianapolis-Carmel-Anderson, IN",
+  "series_id": "INDI918UR"
+ },
+ {
+  "code": "26980",
+  "metro": "Iowa City, IA",
+  "series_id": "IOWA919UR"
+ },
+ {
+  "code": "27060",
+  "metro": "Ithaca, NY",
+  "series_id": "ITHA036UR"
+ },
+ {
+  "code": "27100",
+  "metro": "Jackson, MI",
+  "series_id": "JACK126UR"
+ },
+ {
+  "code": "27140",
+  "metro": "Jackson, MS",
+  "series_id": "JACK128UR"
+ },
+ {
+  "code": "27180",
+  "metro": "Jackson, TN",
+  "series_id": "JACUR"
+ },
+ {
+  "code": "27260",
+  "metro": "Jacksonville, FL",
+  "series_id": "JACK212UR"
+ },
+ {
+  "code": "27340",
+  "metro": "Jacksonville, NC",
+  "series_id": "JACK337UR"
+ },
+ {
+  "code": "27500",
+  "metro": "Janesville-Beloit, WI",
+  "series_id": "JANE555UR"
+ },
+ {
+  "code": "27620",
+  "metro": "Jefferson City, MO",
+  "series_id": "JEFUR"
+ },
+ {
+  "code": "27740",
+  "metro": "Johnson City, TN",
+  "series_id": "JOHN747UR"
+ },
+ {
+  "code": "27780",
+  "metro": "Johnstown, PA",
+  "series_id": "JOHN742UR"
+ },
+ {
+  "code": "27860",
+  "metro": "Jonesboro, AR",
+  "series_id": "JORUR"
+ },
+ {
+  "code": "27900",
+  "metro": "Joplin, MO",
+  "series_id": "JOPL929UR"
+ },
+ {
+  "code": "28020",
+  "metro": "Kalamazoo-Portage, MI",
+  "series_id": "KALA026UR"
+ },
+ {
+  "code": "28100",
+  "metro": "Kankakee, IL",
+  "series_id": "KANK117UR"
+ },
+ {
+  "code": "28140",
+  "metro": "Kansas City, MO-KS",
+  "series_id": "KANS129UR"
+ },
+ {
+  "code": "28420",
+  "metro": "Kennewick-Richland, WA",
+  "series_id": "KENN453UR"
+ },
+ {
+  "code": "28660",
+  "metro": "Killeen-Temple, TX",
+  "series_id": "KILL648UR"
+ },
+ {
+  "code": "28700",
+  "metro": "Kingsport-Bristol-Bristol, TN-VA",
+  "series_id": "KING747UR"
+ },
+ {
+  "code": "28740",
+  "metro": "Kingston, NY",
+  "series_id": "KING736UR"
+ },
+ {
+  "code": "28940",
+  "metro": "Knoxville, TN",
+  "series_id": "KNOX947UR"
+ },
+ {
+  "code": "29020",
+  "metro": "Kokomo, IN",
+  "series_id": "KOKO018UR"
+ },
+ {
+  "code": "29100",
+  "metro": "La Crosse-Onalaska, WI-MN",
+  "series_id": "LACR155UR"
+ },
+ {
+  "code": "29180",
+  "metro": "Lafayette, LA",
+  "series_id": "LAFA122UR"
+ },
+ {
+  "code": "29200",
+  "metro": "Lafayette-West Lafayette, IN",
+  "series_id": "LAFA118UR"
+ },
+ {
+  "code": "29340",
+  "metro": "Lake Charles, LA",
+  "series_id": "LAKE322UR"
+ },
+ {
+  "code": "29460",
+  "metro": "Lakeland-Winter Haven, FL",
+  "series_id": "LAKE412UR"
+ },
+ {
+  "code": "29540",
+  "metro": "Lancaster, PA",
+  "series_id": "LANC542UR"
+ },
+ {
+  "code": "29620",
+  "metro": "Lansing-East Lansing, MI",
+  "series_id": "LANS626UR"
+ },
+ {
+  "code": "29700",
+  "metro": "Laredo, TX",
+  "series_id": "LARE748UR"
+ },
+ {
+  "code": "29740",
+  "metro": "Las Cruces, NM",
+  "series_id": "LASC735UR"
+ },
+ {
+  "code": "29820",
+  "metro": "Las Vegas-Henderson-Paradise, NV",
+  "series_id": "LASV832UR"
+ },
+ {
+  "code": "29940",
+  "metro": "Lawrence, KS",
+  "series_id": "LAWR920UR"
+ },
+ {
+  "code": "30020",
+  "metro": "Lawton, OK",
+  "series_id": "LAWT040UR"
+ },
+ {
+  "code": "30140",
+  "metro": "Lebanon, PA",
+  "series_id": "LEBA142UR"
+ },
+ {
+  "code": "30300",
+  "metro": "Lewiston, ID-WA",
+  "series_id": "LEWI316UR"
+ },
+ {
+  "code": "30460",
+  "metro": "Lexington-Fayette, KY",
+  "series_id": "LEXI421UR"
+ },
+ {
+  "code": "30620",
+  "metro": "Lima, OH",
+  "series_id": "LIMA639UR"
+ },
+ {
+  "code": "30700",
+  "metro": "Lincoln, NE",
+  "series_id": "LINC731UR"
+ },
+ {
+  "code": "30780",
+  "metro": "Little Rock-North Little Rock-Conway, AR",
+  "series_id": "LRSUR"
+ },
+ {
+  "code": "30860",
+  "metro": "Logan, UT-ID",
+  "series_id": "LOGA849UR"
+ },
+ {
+  "code": "30980",
+  "metro": "Longview, TX",
+  "series_id": "LONG948UR"
+ },
+ {
+  "code": "31020",
+  "metro": "Longview, WA",
+  "series_id": "LONG053UR"
+ },
+ {
+  "code": "31080",
+  "metro": "Los Angeles-Long Beach-Anaheim, CA",
+  "series_id": "LOSA106UR"
+ },
+ {
+  "code": "31140",
+  "metro": "Louisville-Jefferson County, KY-IN",
+  "series_id": "LOIUR"
+ },
+ {
+  "code": "31180",
+  "metro": "Lubbock, TX",
+  "series_id": "LUBB148UR"
+ },
+ {
+  "code": "31340",
+  "metro": "Lynchburg, VA",
+  "series_id": "LYNC351UR"
+ },
+ {
+  "code": "31420",
+  "metro": "Macon, GA",
+  "series_id": "MACO413UR"
+ },
+ {
+  "code": "31540",
+  "metro": "Madison, WI",
+  "series_id": "MADI555UR"
+ },
+ {
+  "code": "31900",
+  "metro": "Mansfield, OH",
+  "series_id": "MANS939UR"
+ },
+ {
+  "code": "32580",
+  "metro": "McAllen-Edinburg-Mission, TX",
+  "series_id": "MCAL548UR"
+ },
+ {
+  "code": "32780",
+  "metro": "Medford, OR",
+  "series_id": "MEDF741UR"
+ },
+ {
+  "code": "32820",
+  "metro": "Memphis, TN-MS-AR",
+  "series_id": "MPHUR"
+ },
+ {
+  "code": "32900",
+  "metro": "Merced, CA",
+  "series_id": "MERC906UR"
+ },
+ {
+  "code": "33100",
+  "metro": "Miami-Fort Lauderdale-West Palm Beach, FL",
+  "series_id": "MIAM112UR"
+ },
+ {
+  "code": "33140",
+  "metro": "Michigan City-La Porte, IN",
+  "series_id": "MICH118UR"
+ },
+ {
+  "code": "33260",
+  "metro": "Midland, TX",
+  "series_id": "MIDL248UR"
+ },
+ {
+  "code": "33340",
+  "metro": "Milwaukee-Waukesha-West Allis, WI",
+  "series_id": "MILW355UR"
+ },
+ {
+  "code": "33460",
+  "metro": "Minneapolis-St. Paul-Bloomington, MN-WI",
+  "series_id": "MINN427UR"
+ },
+ {
+  "code": "33540",
+  "metro": "Missoula, MT",
+  "series_id": "MISS530UR"
+ },
+ {
+  "code": "33660",
+  "metro": "Mobile, AL",
+  "series_id": "MOBI601UR"
+ },
+ {
+  "code": "33700",
+  "metro": "Modesto, CA",
+  "series_id": "MODE706UR"
+ },
+ {
+  "code": "33740",
+  "metro": "Monroe, LA",
+  "series_id": "MONR722UR"
+ },
+ {
+  "code": "33780",
+  "metro": "Monroe, MI",
+  "series_id": "MONR726UR"
+ },
+ {
+  "code": "33860",
+  "metro": "Montgomery, AL",
+  "series_id": "MONT801UR"
+ },
+ {
+  "code": "34060",
+  "metro": "Morgantown, WV",
+  "series_id": "MORG054UR"
+ },
+ {
+  "code": "34100",
+  "metro": "Morristown, TN",
+  "series_id": "MORR147UR"
+ },
+ {
+  "code": "34580",
+  "metro": "Mount Vernon-Anacortes, WA",
+  "series_id": "MOUN553UR"
+ },
+ {
+  "code": "34620",
+  "metro": "Muncie, IN",
+  "series_id": "MUNC618UR"
+ },
+ {
+  "code": "34740",
+  "metro": "Muskegon, MI",
+  "series_id": "MUSK726UR"
+ },
+ {
+  "code": "34820",
+  "metro": "Myrtle Beach-Conway-North Myrtle Beach, SC-NC",
+  "series_id": "MYRT845UR"
+ },
+ {
+  "code": "34900",
+  "metro": "Napa, CA",
+  "series_id": "NAPA906UR"
+ },
+ {
+  "code": "34940",
+  "metro": "Naples-Immokalee-Marco Island, FL",
+  "series_id": "NAPL912UR"
+ },
+ {
+  "code": "34980",
+  "metro": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+  "series_id": "NASH947UR"
+ },
+ {
+  "code": "35380",
+  "metro": "New Orleans-Metairie, LA",
+  "series_id": "NEWO322UR"
+ },
+ {
+  "code": "35620",
+  "metro": "New York-Newark-Jersey City, NY-NJ-PA",
+  "series_id": "NEWY636UR"
+ },
+ {
+  "code": "35660",
+  "metro": "Niles-Benton Harbor, MI",
+  "series_id": "NILE626UR"
+ },
+ {
+  "code": "36100",
+  "metro": "Ocala, FL",
+  "series_id": "OCAL112UR"
+ },
+ {
+  "code": "36220",
+  "metro": "Odessa, TX",
+  "series_id": "ODES248UR"
+ },
+ {
+  "code": "36260",
+  "metro": "Ogden-Clearfield, UT",
+  "series_id": "OGDE249UR"
+ },
+ {
+  "code": "36420",
+  "metro": "Oklahoma City, OK",
+  "series_id": "OKLA440UR"
+ },
+ {
+  "code": "36500",
+  "metro": "Olympia-Tumwater, WA",
+  "series_id": "OLYM553UR"
+ },
+ {
+  "code": "36540",
+  "metro": "Omaha-Council Bluffs, NE-IA",
+  "series_id": "OMAH531UR"
+ },
+ {
+  "code": "36740",
+  "metro": "Orlando-Kissimmee-Sanford, FL",
+  "series_id": "ORLA712UR"
+ },
+ {
+  "code": "36780",
+  "metro": "Oshkosh-Neenah, WI",
+  "series_id": "OSHK755UR"
+ },
+ {
+  "code": "36980",
+  "metro": "Owensboro, KY",
+  "series_id": "OWNUR"
+ },
+ {
+  "code": "37100",
+  "metro": "Oxnard-Thousand Oaks-Ventura, CA",
+  "series_id": "OXNA106UR"
+ },
+ {
+  "code": "37340",
+  "metro": "Palm Bay-Melbourne-Titusville, FL",
+  "series_id": "PALM312UR"
+ },
+ {
+  "code": "37460",
+  "metro": "Panama City, FL",
+  "series_id": "PANA412UR"
+ },
+ {
+  "code": "37620",
+  "metro": "Parkersburg-Vienna, WV",
+  "series_id": "PARK654UR"
+ },
+ {
+  "code": "37860",
+  "metro": "Pensacola-Ferry Pass-Brent, FL",
+  "series_id": "PENS812UR"
+ },
+ {
+  "code": "37900",
+  "metro": "Peoria, IL",
+  "series_id": "PEOR917UR"
+ },
+ {
+  "code": "37980",
+  "metro": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+  "series_id": "PHIL942UR"
+ },
+ {
+  "code": "38060",
+  "metro": "Phoenix-Mesa-Scottsdale, AZ",
+  "series_id": "PHOE004UR"
+ },
+ {
+  "code": "38300",
+  "metro": "Pittsburgh, PA",
+  "series_id": "PITT342UR"
+ },
+ {
+  "code": "38540",
+  "metro": "Pocatello, ID",
+  "series_id": "POCA516UR"
+ },
+ {
+  "code": "38940",
+  "metro": "Port St. Lucie, FL",
+  "series_id": "PORT912UR"
+ },
+ {
+  "code": "38900",
+  "metro": "Portland-Vancouver-Hillsboro, OR-WA",
+  "series_id": "PORT941UR"
+ },
+ {
+  "code": "39340",
+  "metro": "Provo-Orem, UT",
+  "series_id": "PROV349UR"
+ },
+ {
+  "code": "39380",
+  "metro": "Pueblo, CO",
+  "series_id": "PUEB308UR"
+ },
+ {
+  "code": "39460",
+  "metro": "Punta Gorda, FL",
+  "series_id": "PUNT412UR"
+ },
+ {
+  "code": "39540",
+  "metro": "Racine, WI",
+  "series_id": "RACI555UR"
+ },
+ {
+  "code": "39580",
+  "metro": "Raleigh, NC",
+  "series_id": "RALE537UR"
+ },
+ {
+  "code": "39660",
+  "metro": "Rapid City, SD",
+  "series_id": "RAPI646UR"
+ },
+ {
+  "code": "39740",
+  "metro": "Reading, PA",
+  "series_id": "READ742UR"
+ },
+ {
+  "code": "39820",
+  "metro": "Redding, CA",
+  "series_id": "REDD806UR"
+ },
+ {
+  "code": "39900",
+  "metro": "Reno, NV",
+  "series_id": "RENO932UR"
+ },
+ {
+  "code": "40060",
+  "metro": "Richmond, VA",
+  "series_id": "RICH051UR"
+ },
+ {
+  "code": "40140",
+  "metro": "Riverside-San Bernardino-Ontario, CA",
+  "series_id": "RIVE106UR"
+ },
+ {
+  "code": "40220",
+  "metro": "Roanoke, VA",
+  "series_id": "ROAN251UR"
+ },
+ {
+  "code": "40340",
+  "metro": "Rochester, MN",
+  "series_id": "ROCH327UR"
+ },
+ {
+  "code": "40380",
+  "metro": "Rochester, NY",
+  "series_id": "ROCH336UR"
+ },
+ {
+  "code": "40420",
+  "metro": "Rockford, IL",
+  "series_id": "ROCK417UR"
+ },
+ {
+  "code": "40580",
+  "metro": "Rocky Mount, NC",
+  "series_id": "ROCK537UR"
+ },
+ {
+  "code": "40660",
+  "metro": "Rome, GA",
+  "series_id": "ROME613UR"
+ },
+ {
+  "code": "40900",
+  "metro": "Sacramento--Roseville--Arden-Arcade, CA",
+  "series_id": "SACR906UR"
+ },
+ {
+  "code": "40980",
+  "metro": "Saginaw, MI",
+  "series_id": "SAGI926UR"
+ },
+ {
+  "code": "41420",
+  "metro": "Salem, OR",
+  "series_id": "SALE441UR"
+ },
+ {
+  "code": "41500",
+  "metro": "Salinas, CA",
+  "series_id": "SALI506UR"
+ },
+ {
+  "code": "41540",
+  "metro": "Salisbury, MD-DE",
+  "series_id": "SALI524UR"
+ },
+ {
+  "code": "41620",
+  "metro": "Salt Lake City, UT",
+  "series_id": "SALT649UR"
+ },
+ {
+  "code": "41660",
+  "metro": "San Angelo, TX",
+  "series_id": "SANA648UR"
+ },
+ {
+  "code": "41700",
+  "metro": "San Antonio-New Braunfels, TX",
+  "series_id": "SANA748UR"
+ },
+ {
+  "code": "41740",
+  "metro": "San Diego-Carlsbad, CA",
+  "series_id": "SAND706UR"
+ },
+ {
+  "code": "41860",
+  "metro": "San Francisco-Oakland-Hayward, CA",
+  "series_id": "SANF806UR"
+ },
+ {
+  "code": "41940",
+  "metro": "San Jose-Sunnyvale-Santa Clara, CA",
+  "series_id": "SANJ906UR"
+ },
+ {
+  "code": "42020",
+  "metro": "San Luis Obispo-Paso Robles-Arroyo Grande, CA",
+  "series_id": "SANL006UR"
+ },
+ {
+  "code": "41780",
+  "metro": "Sandusky, OH",
+  "series_id": "SAND739UR"
+ },
+ {
+  "code": "42100",
+  "metro": "Santa Cruz-Watsonville, CA",
+  "series_id": "SANT106UR"
+ },
+ {
+  "code": "42140",
+  "metro": "Santa Fe, NM",
+  "series_id": "SANT135UR"
+ },
+ {
+  "code": "42200",
+  "metro": "Santa Maria-Santa Barbara, CA",
+  "series_id": "SANT006UR"
+ },
+ {
+  "code": "42220",
+  "metro": "Santa Rosa, CA",
+  "series_id": "SANT206UR"
+ },
+ {
+  "code": "42340",
+  "metro": "Savannah, GA",
+  "series_id": "SAVA313UR"
+ },
+ {
+  "code": "42540",
+  "metro": "Scranton--Wilkes-Barre--Hazleton, PA",
+  "series_id": "SCRA542UR"
+ },
+ {
+  "code": "42660",
+  "metro": "Seattle-Tacoma-Bellevue, WA",
+  "series_id": "SEAT653UR"
+ },
+ {
+  "code": "42680",
+  "metro": "Sebastian-Vero Beach, FL",
+  "series_id": "SEBA612UR"
+ },
+ {
+  "code": "43100",
+  "metro": "Sheboygan, WI",
+  "series_id": "SHEB155UR"
+ },
+ {
+  "code": "43300",
+  "metro": "Sherman-Denison, TX",
+  "series_id": "SHER348UR"
+ },
+ {
+  "code": "43340",
+  "metro": "Shreveport-Bossier City, LA",
+  "series_id": "SHRE322UR"
+ },
+ {
+  "code": "43580",
+  "metro": "Sioux City, IA-NE-SD",
+  "series_id": "SIOU519UR"
+ },
+ {
+  "code": "43620",
+  "metro": "Sioux Falls, SD",
+  "series_id": "SIOU646UR"
+ },
+ {
+  "code": "43780",
+  "metro": "South Bend-Mishawaka, IN-MI",
+  "series_id": "SOUT718UR"
+ },
+ {
+  "code": "43900",
+  "metro": "Spartanburg, SC",
+  "series_id": "SPAR945UR"
+ },
+ {
+  "code": "44060",
+  "metro": "Spokane-Spokane Valley, WA",
+  "series_id": "SPOK053UR"
+ },
+ {
+  "code": "44100",
+  "metro": "Springfield, IL",
+  "series_id": "SPRI117UR"
+ },
+ {
+  "code": "44180",
+  "metro": "Springfield, MO",
+  "series_id": "SPIUR"
+ },
+ {
+  "code": "44220",
+  "metro": "Springfield, OH",
+  "series_id": "SPRI239UR"
+ },
+ {
+  "code": "41060",
+  "metro": "St. Cloud, MN",
+  "series_id": "STCL027UR"
+ },
+ {
+  "code": "41100",
+  "metro": "St. George, UT",
+  "series_id": "STGE149UR"
+ },
+ {
+  "code": "41140",
+  "metro": "St. Joseph, MO-KS",
+  "series_id": "STJO129UR"
+ },
+ {
+  "code": "41180",
+  "metro": "St. Louis, MO-IL",
+  "series_id": "STLUR"
+ },
+ {
+  "code": "44300",
+  "metro": "State College, PA",
+  "series_id": "STAT342UR"
+ },
+ {
+  "code": "44940",
+  "metro": "Sumter, SC",
+  "series_id": "SUMT945UR"
+ },
+ {
+  "code": "45060",
+  "metro": "Syracuse, NY",
+  "series_id": "SYRA036UR"
+ },
+ {
+  "code": "45220",
+  "metro": "Tallahassee, FL",
+  "series_id": "TALL212UR"
+ },
+ {
+  "code": "45300",
+  "metro": "Tampa-St. Petersburg-Clearwater, FL",
+  "series_id": "TAMP312UR"
+ },
+ {
+  "code": "45460",
+  "metro": "Terre Haute, IN",
+  "series_id": "TERR418UR"
+ },
+ {
+  "code": "45500",
+  "metro": "Texarkana, TX-Texarkana, AR",
+  "series_id": "TEXUR"
+ },
+ {
+  "code": "45780",
+  "metro": "Toledo, OH",
+  "series_id": "TOLE739UR"
+ },
+ {
+  "code": "45820",
+  "metro": "Topeka, KS",
+  "series_id": "TOPE820UR"
+ },
+ {
+  "code": "45940",
+  "metro": "Trenton-Ewing, NJ",
+  "series_id": "TREN934UR"
+ },
+ {
+  "code": "46060",
+  "metro": "Tucson, AZ",
+  "series_id": "TUCS004UR"
+ },
+ {
+  "code": "46140",
+  "metro": "Tulsa, OK",
+  "series_id": "TULS140UR"
+ },
+ {
+  "code": "46220",
+  "metro": "Tuscaloosa, AL",
+  "series_id": "TUSC201UR"
+ },
+ {
+  "code": "46340",
+  "metro": "Tyler, TX",
+  "series_id": "TYLE348UR"
+ },
+ {
+  "code": "46520",
+  "metro": "Urban Honolulu, HI",
+  "series_id": "HONO115UR"
+ },
+ {
+  "code": "46540",
+  "metro": "Utica-Rome, NY",
+  "series_id": "UTIC536UR"
+ },
+ {
+  "code": "46660",
+  "metro": "Valdosta, GA",
+  "series_id": "VALD613UR"
+ },
+ {
+  "code": "46700",
+  "metro": "Vallejo-Fairfield, CA",
+  "series_id": "VALL706UR"
+ },
+ {
+  "code": "47020",
+  "metro": "Victoria, TX",
+  "series_id": "VICT048UR"
+ },
+ {
+  "code": "47220",
+  "metro": "Vineland-Bridgeton, NJ",
+  "series_id": "VINE234UR"
+ },
+ {
+  "code": "47260",
+  "metro": "Virginia Beach-Norfolk-Newport News, VA-NC",
+  "series_id": "VIRG251UR"
+ },
+ {
+  "code": "47300",
+  "metro": "Visalia-Porterville, CA",
+  "series_id": "VISA306UR"
+ },
+ {
+  "code": "47380",
+  "metro": "Waco, TX",
+  "series_id": "WACO348UR"
+ },
+ {
+  "code": "47580",
+  "metro": "Warner Robins, GA",
+  "series_id": "WARN513UR"
+ },
+ {
+  "code": "47900",
+  "metro": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+  "series_id": "WASH911UR"
+ },
+ {
+  "code": "47940",
+  "metro": "Waterloo-Cedar Falls, IA",
+  "series_id": "WATE919UR"
+ },
+ {
+  "code": "48140",
+  "metro": "Wausau, WI",
+  "series_id": "WAUS155UR"
+ },
+ {
+  "code": "48260",
+  "metro": "Weirton-Steubenville, WV-OH",
+  "series_id": "WEIR239UR"
+ },
+ {
+  "code": "48300",
+  "metro": "Wenatchee, WA",
+  "series_id": "WENA353UR"
+ },
+ {
+  "code": "48540",
+  "metro": "Wheeling, WV-OH",
+  "series_id": "WHEE554UR"
+ },
+ {
+  "code": "48660",
+  "metro": "Wichita Falls, TX",
+  "series_id": "WICH648UR"
+ },
+ {
+  "code": "48620",
+  "metro": "Wichita, KS",
+  "series_id": "WICH620UR"
+ },
+ {
+  "code": "48700",
+  "metro": "Williamsport, PA",
+  "series_id": "WILL742UR"
+ },
+ {
+  "code": "48900",
+  "metro": "Wilmington, NC",
+  "series_id": "WILM937UR"
+ },
+ {
+  "code": "49020",
+  "metro": "Winchester, VA-WV",
+  "series_id": "WINC051UR"
+ },
+ {
+  "code": "49180",
+  "metro": "Winston-Salem, NC",
+  "series_id": "WINS137UR"
+ },
+ {
+  "code": "49420",
+  "metro": "Yakima, WA",
+  "series_id": "YAKI453UR"
+ },
+ {
+  "code": "49620",
+  "metro": "York-Hanover, PA",
+  "series_id": "YORK642UR"
+ },
+ {
+  "code": "49660",
+  "metro": "Youngstown-Warren-Boardman, OH-PA",
+  "series_id": "YOUN639UR"
+ },
+ {
+  "code": "49700",
+  "metro": "Yuba City, CA",
+  "series_id": "YUBA706UR"
+ },
+ {
+  "code": "49740",
+  "metro": "Yuma, AZ",
+  "series_id": "YUMA704UR"
+ }
+]
