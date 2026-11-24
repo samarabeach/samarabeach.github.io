@@ -1,318 +1,194 @@
-<!DOCTYPE html>
-
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
-<title>Chart Portfolio</title>
-
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
-
-
-
-
-
-
-<link rel="stylesheet" href="darklyubuntu.min.css" type="text/css" />
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
-}
-pre code {
-  padding: 0;
-}
-</style>
-
-
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
-
-
-
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economic Chart Portfolio · Samara Beach</title>
+<meta name="description" content="Interactive charts of U.S. inflation, GDP growth, unemployment by state and metro area, and three dozen economic indicators, built from FRED data.">
+<script>try { var m = localStorage.getItem('site-mode'); if (m === 'light' || m === 'dark') document.documentElement.dataset.theme = m; } catch (e) {}</script>
+<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/economy.css">
+<script src="assets/vendor/d3.min.js"></script>
 </head>
-
 <body>
+<div class="site">
 
+<nav class="site-nav" aria-label="Site">
+  <a class="site-brand" href="index.html">Samara Beach</a>
+  <div class="site-links">
+    <a class="site-link" href="index.html">Home</a>
+    <a class="site-link" href="research.html">Research</a>
+    <a class="site-link" href="chart_portfolio.html" aria-current="page">Economic Chart Portfolio</a>
+  </div>
+  <div class="mode" role="group" aria-label="Color mode">
+    <button type="button" data-mode="auto">Auto</button>
+    <button type="button" data-mode="light">Light</button>
+    <button type="button" data-mode="dark">Dark</button>
+  </div>
+</nav>
 
-<div class="container-fluid main-container">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Samara Beach</a>
+<main class="ec" id="economy">
+  <header class="ec-head">
+    <div>
+      <h1 class="ec-title">Economic Chart<br>Portfolio<span style="color: var(--skin-accent)">.</span></h1>
+      <p class="ec-take" id="takeaway">Headline CPI inflation was <span data-source="headline" data-where="metric=cpi" data-field="value" class="dash-skeleton">—</span>% over the year to <span data-source="headline" data-where="metric=cpi" data-field="period_label" class="dash-skeleton">—</span>, real GDP grew at a <span data-source="headline" data-where="metric=gdp" data-field="value" class="dash-skeleton">—</span>% annual rate in <span data-source="headline" data-where="metric=gdp" data-field="period_label" class="dash-skeleton">—</span>, and the unemployment rate was <span data-source="headline" data-where="metric=u3" data-field="value" class="dash-skeleton">—</span>% in <span data-source="headline" data-where="metric=u3" data-field="period_label" class="dash-skeleton">—</span>.</p>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+    <div class="ec-stamp" aria-live="polite">
+      <span>Data from FRED as of</span>
+      <b id="pulled">…</b>
+    </div>
+  </header>
 
-<div id="header">
+  <div class="ec-tabs" role="tablist">
+    <button class="ec-tab" role="tab" id="tab-national" data-page="national" aria-selected="true">National</button>
+    <button class="ec-tab" role="tab" id="tab-maps" data-page="maps" aria-selected="false">Unemployment by state and metro</button>
+    <button class="ec-tab" role="tab" id="tab-indicators" data-page="indicators" aria-selected="false">Indicators</button>
+  </div>
 
+  <!-- ============ National ============ -->
+  <section id="national" class="ec-page">
+    <div class="ec-tiles" id="tiles">
+      <div class="ec-card" id="tile-cpi">
+        <div class="ec-tile-label">CPI inflation, 12-month</div>
+        <div class="ec-tile-num"><span data-source="headline" data-where="metric=cpi" data-field="value" class="dash-skeleton">—</span><span class="u">%</span></div>
+        <div class="ec-tile-foot"><span class="chg" data-source="headline" data-where="metric=cpi" data-field="change">—</span> pp vs prior month · <span data-source="headline" data-where="metric=cpi" data-field="period_label">—</span></div>
+      </div>
+      <div class="ec-card" id="tile-core">
+        <div class="ec-tile-label">Core CPI (ex food and energy), 12-month</div>
+        <div class="ec-tile-num"><span data-source="headline" data-where="metric=core" data-field="value" class="dash-skeleton">—</span><span class="u">%</span></div>
+        <div class="ec-tile-foot"><span class="chg" data-source="headline" data-where="metric=core" data-field="change">—</span> pp vs prior month · <span data-source="headline" data-where="metric=core" data-field="period_label">—</span></div>
+      </div>
+      <div class="ec-card" id="tile-gdp">
+        <div class="ec-tile-label">Real GDP growth, annualized</div>
+        <div class="ec-tile-num"><span data-source="headline" data-where="metric=gdp" data-field="value" class="dash-skeleton">—</span><span class="u">%</span></div>
+        <div class="ec-tile-foot"><span class="chg" data-source="headline" data-where="metric=gdp" data-field="change">—</span> pp vs prior quarter · <span data-source="headline" data-where="metric=gdp" data-field="period_label">—</span></div>
+      </div>
+      <div class="ec-card" id="tile-u3">
+        <div class="ec-tile-label">Unemployment rate</div>
+        <div class="ec-tile-num"><span data-source="headline" data-where="metric=u3" data-field="value" class="dash-skeleton">—</span><span class="u">%</span></div>
+        <div class="ec-tile-foot"><span class="chg" data-source="headline" data-where="metric=u3" data-field="change">—</span> pp vs prior month · <span data-source="headline" data-where="metric=u3" data-field="period_label">—</span></div>
+      </div>
+    </div>
 
+    <div class="ec-controls" id="national-controls">
+      <span>Frequency</span>
+      <div class="ec-seg" data-param="freq"><button data-v="monthly">Monthly</button><button data-v="quarterly">Quarterly</button></div>
+      <span>Range</span>
+      <div class="ec-seg" data-param="range"><button data-v="5y">5 years</button><button data-v="10y">10 years</button><button data-v="all">Since 2000</button></div>
+      <span class="ec-shade-key"><span><i class="rec"></i>Recession</span><span><i class="fed"></i>At the Fed, Jun 2022–Jul 2025</span></span>
+    </div>
 
-<h1 class="title toc-ignore">Chart Portfolio</h1>
+    <div class="ec-grid">
+      <div class="ec-card" id="card-cpi">
+        <div class="ec-card-head">
+          <div><h2>Consumer price inflation</h2><p class="ec-note" id="cpi-note">CPI-U, seasonally adjusted. BLS via FRED.</p></div>
+          <div class="ec-seg" data-param="cpi_measure"><button data-v="yoy">12-month</button><button data-v="ann">Annualized</button></div>
+        </div>
+        <div class="ec-legend" id="cpi-legend"></div>
+        <div class="ec-chart" id="chart-cpi" data-source="cpi_monthly cpi_quarterly"></div>
+      </div>
+      <div class="ec-card" id="card-unemp">
+        <h2>Unemployment</h2>
+        <p class="ec-note">U-3 is the official rate. U-6 adds people working part time for economic reasons and those marginally attached to the labor force. Seasonally adjusted; BLS via FRED.</p>
+        <div class="ec-legend" id="unemp-legend"></div>
+        <div class="ec-chart" id="chart-unemp" data-source="unemp_monthly unemp_quarterly"></div>
+      </div>
+    </div>
+
+    <div class="ec-card" id="card-gdp">
+      <h2>Real GDP growth and contributions by component</h2>
+      <p class="ec-note">Quarterly, percent change at a seasonally adjusted annual rate. Bars are each component's contribution in percentage points and sum to the dot, total real GDP growth. BEA via FRED. Quarterly only; the frequency switch doesn't apply.</p>
+      <div class="ec-legend" id="gdp-legend"></div>
+      <div class="ec-chart" id="chart-gdp" data-source="gdp_contrib"></div>
+    </div>
+  </section>
+
+  <!-- ============ Maps ============ -->
+  <section id="maps" class="ec-page" hidden>
+    <div class="ec-card" style="margin-bottom: var(--cds-gap-md)">
+      <div class="ec-mapbar" id="mapbar">
+        <span class="ec-month" id="map-month">—</span>
+        <input type="range" id="map-slider" min="0" max="0" step="1" aria-label="Month shown on the maps">
+        <button class="ec-btn" id="map-latest">Latest</button>
+        <div>
+          <div class="ec-scale" id="map-scale"></div>
+          <div class="ec-scale-l" id="map-scale-l"></div>
+        </div>
+      </div>
+      <p class="ec-note" id="map-note" style="margin:0">Unemployment rate, percent. States are seasonally adjusted; metro areas are smoothed seasonally adjusted. One color scale is shared by both maps. BLS Local Area Unemployment Statistics via FRED. Click any area to chart its history.</p>
+    </div>
+
+    <div class="ec-grid">
+      <div class="ec-card" id="card-statemap">
+        <h2>States</h2>
+        <p class="ec-note">50 states and the District of Columbia.</p>
+        <div class="ec-statewrap" id="statewrap">
+          <div class="ec-map" id="map-states" data-source="state_unemp state_shapes state_borders state_change"></div>
+          <div class="ec-small" id="small-states" data-source="state_unemp state_change" aria-label="Small states"></div>
+        </div>
+      </div>
+      <div class="ec-card" id="card-metromap">
+        <h2>Metropolitan areas</h2>
+        <p class="ec-note" id="metro-note">Metropolitan statistical areas with a smoothed seasonally adjusted series. Gray areas have no estimate for the month.</p>
+        <div class="ec-map" id="map-metros" data-source="metro_unemp metro_shapes metro_backdrop metro_change"></div>
+      </div>
+    </div>
+
+    <div class="ec-grid">
+      <div class="ec-card" id="card-detail">
+        <div class="ec-card-head">
+          <div><h2 id="detail-title">Pick a state or metro</h2><p class="ec-note" id="detail-note">Click an area on either map, or a row in the table, to compare it with the national rate since 2019.</p></div>
+          <button class="ec-btn" id="detail-clear" hidden>Clear</button>
+        </div>
+        <div class="ec-legend" id="detail-legend"></div>
+        <div class="ec-chart" id="chart-detail" data-source="state_unemp metro_unemp unemp_monthly"></div>
+      </div>
+      <div class="ec-card" id="card-metrotable">
+        <div class="ec-card-head">
+          <div><h2>Metro areas ranked</h2><p class="ec-note" id="table-note">For the month shown on the maps. Change is versus the same month a year earlier, in percentage points.</p></div>
+          <input class="ec-search" id="metro-search" type="search" placeholder="Search metros" aria-label="Search metros">
+        </div>
+        <div class="ec-tablebox">
+          <table id="metro-table" data-source="metro_unemp" data-row-key="code,date">
+            <thead><tr>
+              <th data-field="metro" data-sort="metro"><button>Metro area</button></th>
+              <th class="num" data-field="rate" data-sort="rate" aria-sort="descending"><button>Rate, %</button></th>
+              <th class="num" data-source="metro_change" data-field="change_12m" data-sort="change_12m"><button>12-mo change</button></th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Indicators ============ -->
+  <section id="indicators" class="ec-page" hidden>
+    <div class="ind-layout">
+      <aside class="ind-side" aria-label="Indicator settings">
+        <div class="ind-side-block">
+          <div class="ind-side-h">Range</div>
+          <div class="ec-seg ind-seg" data-param="ind_range"><button data-v="2y">2 years</button><button data-v="5y">5 years</button><button data-v="10y">10 years</button><button data-v="all">Since 2000</button></div>
+        </div>
+        <div class="ind-side-block">
+          <div class="ind-side-h">Jump to</div>
+          <nav class="ind-nav" id="ind-nav"></nav>
+        </div>
+        <div class="ind-side-block">
+          <div class="ind-side-h">Shading</div>
+          <span class="ec-shade-key ind-shade-key"><span><i class="rec"></i>Recession</span><span><i class="fed"></i>At the Fed, Jun 2022–Jul 2025</span></span>
+        </div>
+        <div class="ind-side-foot" id="ind-count"></div>
+      </aside>
+      <div id="ind-groups" class="ind-groups"></div>
+    </div>
+  </section>
+
+  <p class="ec-note ec-source">Source: FRED, Federal Reserve Bank of St. Louis, from BLS, BEA, the Federal Reserve and the other agencies named under each chart. Shaded areas mark NBER recessions; the red band marks my time at the Federal Reserve Board. Charts built with D3.</p>
+</main>
 
 </div>
-
-
-<p>This is a placeholder page for a future chart portfolio.</p>
-<p><img src="figures/rates.svg" /></p>
-
-
-
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
-  });
-});
-</script>
-
-<!-- code folding -->
-
-
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
-
+<script src="assets/theme.js"></script>
+<script src="assets/economy.js"></script>
 </body>
 </html>
