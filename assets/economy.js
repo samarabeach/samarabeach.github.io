@@ -880,7 +880,9 @@ window.EC = (() => {
       .catch((e) => { dash._fail(id, String(e)); dash._notify(); });
   }
 
-  fetch('data/economy.json')
+  // GitHub Pages lets browsers reuse files for 10 minutes; always check for a newer copy
+  // (an unchanged file comes back as a cheap 304 Not Modified)
+  fetch('data/economy.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then((j) => {
       for (const id of DATA) {
